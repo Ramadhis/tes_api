@@ -29,7 +29,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     Route::post('users/signin', 'UserController@signin'); //signin
     
     Route::post('shopping', 'ShoppingController@shopping'); //shopping
-    
+    //tes
     Route::get('users', 'UserController@index'); //all user
 
     Route::post('logout', 'AuthController@logout');
